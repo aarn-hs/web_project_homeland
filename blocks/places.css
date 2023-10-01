@@ -1,0 +1,89 @@
+.places {
+  width: 77%;
+  margin: 0 auto 92px;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: 47% auto;
+  column-gap: 40px;
+  margin: 0 auto 48px;
+}
+
+.place__columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.place__columns_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.place__columns_left {
+  row-gap: 20px;
+}
+
+.place__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.place__item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  width: 460px;
+  height: 460px;
+  align-self: flex-start;
+  margin: 0 0 48px;
+}
+
+.place__image {
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.place__frame {
+  background-color: #0278fe;
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 13px 20px;
+  align-items: flex-start;
+  width: max-content;
+  margin: 0;
+  transition: background 0.3s ease-in-out;
+}
+
+.place__frame:hover {
+  background: #0063d2;
+}
+
+.place__url-heading {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  margin: 107px 0 8px;
+}
+
+.place__artist {
+  margin: 0 0 48px;
+}
+
+.place__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+  margin: 0;
+}
+
+.place__paragraph {
+  margin: 0;
+}
