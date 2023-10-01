@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__logo {
+  margin: 34px auto 90px;
+  display: flex;
+  align-content: center;
+  width: 270px;
+  height: 70px;
+}
+
+.header__title {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header__subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.header__image {
+  width: 984px;
+  height: 615px;
+  filter: saturate(0%);
+}
