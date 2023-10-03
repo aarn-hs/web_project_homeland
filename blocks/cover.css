@@ -1,0 +1,65 @@
+.cover {
+}
+
+.cover__overlay {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 93%;
+  margin: auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cover__title {
+  width: fit-content;
+  margin: 0;
+  z-index: 1;
+}
+
+.cover__subtitle {
+  text-align: center;
+  width: fit-content;
+  z-index: 1;
+}
+
+.cover__frame {
+  display: inline-flex;
+  padding: 13px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #0278fe;
+  width: fit-content;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.cover__frame:hover {
+  background: #0063d2;
+}
+
+.cover_paragraph {
+  margin: 0;
+}
+
+.cover__background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  background: #2a2c2f;
+  transition: all 0.3s linear;
+}
+
+.cover__background:hover {
+  opacity: 0.3;
+  background: #2a2c2f;
+}
