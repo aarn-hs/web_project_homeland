@@ -57,7 +57,7 @@
     font-size: 16px;
     line-height: 1.6;
     width: 71%;
-    margin-bottom: 92px;
+    margin: 0 0 92px;
   }
 }
 
@@ -90,7 +90,7 @@
     font-size: 16px;
     line-height: 1.6;
     width: 100%;
-    margin-bottom: 64px;
+    margin: 0 0 64px;
   }
 }
 
@@ -121,7 +121,6 @@
   .intro__text_context {
     font-size: 16px;
     line-height: 1.6;
-
     margin: 0 0 38px;
   }
 }
