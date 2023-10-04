@@ -89,3 +89,12 @@
 .place__paragraph {
   margin: 0;
 }
+
+@media screen and (max-width: 1920px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 544px) {
+}
