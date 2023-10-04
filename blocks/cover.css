@@ -25,6 +25,7 @@
 }
 
 .cover__title:hover {
+  transition: none;
 }
 
 .cover__title:hover ~ .cover__background {
@@ -42,6 +43,7 @@
 }
 
 .cover__subtitle:hover {
+  transition: none;
 }
 
 .cover__subtitle:hover ~ .cover__background {
