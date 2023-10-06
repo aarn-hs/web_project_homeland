@@ -1,7 +1,3 @@
-.cover {
-  margin: 0 auto 92px;
-}
-
 .cover__overlay {
   position: relative;
   display: flex;
@@ -9,7 +5,6 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 93%;
   margin: auto;
   height: 100vh;
   overflow: hidden;
@@ -19,7 +14,6 @@
   width: fit-content;
   margin: 0;
   z-index: 1;
-  font-size: 72px;
   font-weight: 900;
   line-height: 1;
 }
@@ -37,9 +31,7 @@
   text-align: center;
   width: fit-content;
   z-index: 1;
-  font-size: 18px;
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .cover__subtitle:hover {
@@ -100,10 +92,61 @@
 }
 
 @media screen and (max-width: 1920px) {
+  .cover {
+    margin: 0 auto 92px;
+  }
+
+  .cover__overlay {
+    width: 93%;
+    height: 100vh;
+  }
+
+  .cover__title {
+    font-size: 72px;
+  }
+
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 1024px) {
+  .cover {
+    margin: 0 auto 88px;
+  }
+
+  .cover__overlay {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .cover__title {
+    font-size: 72px;
+  }
+
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 544px) {
+  .cover {
+    margin: 0 auto 64px;
+  }
+
+  .cover__overlay {
+    width: 100%;
+    height: 254px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+  }
+
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.1;
+  }
 }
