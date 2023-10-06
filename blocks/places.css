@@ -193,7 +193,7 @@
     .place__title {
       font-size: 32px;
       grid-column-end: title;
-      width: 60%;
+      max-width: 60%;
       margin: 0 16px 30px;
     }
   }
@@ -201,7 +201,7 @@
   .place__title {
     grid-area: title;
     font-size: 32px;
-    width: 60%;
+    max-width: 60%;
     margin: 0 16px 30px;
   }
 
