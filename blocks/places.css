@@ -110,11 +110,20 @@
   margin: 20px 13px;
 }
 
+@media screen and (min-width: 1500px) {
+  .place:nth-child(3) {
+    .place__title {
+      grid-column-end: subtitle;
+      width: 50%;
+    }
+  }
+}
+
 @media screen and (min-width: 1300px) {
   .place:nth-child(3) {
     .place__title {
       grid-column-end: subtitle;
-      width: 70%;
+      max-width: 70%;
     }
   }
 }
