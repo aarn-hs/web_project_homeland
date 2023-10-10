@@ -1,0 +1,29 @@
+.intro__text_cite {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1920px) {
+  .intro__text_cite {
+    font-size: 24px;
+    line-height: 1.4;
+    width: 71%;
+    margin-bottom: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .intro__text_cite {
+    font-size: 24px;
+    line-height: 1.4;
+    width: 100%;
+    margin: 0 0 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text_cite {
+    font-size: 24px;
+    line-height: 1.25;
+    margin: 0;
+  }
+}

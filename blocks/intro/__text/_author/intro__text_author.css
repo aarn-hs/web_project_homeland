@@ -1,0 +1,33 @@
+.intro__text_author {
+  text-align: end;
+  font-weight: 400;
+  transform: translateY(-50px);
+  margin: 0;
+}
+
+@media screen and (max-width: 1920px) {
+  .intro__text_author {
+    font-size: 24px;
+    line-height: 1.4;
+    width: 71%;
+    transform: translateY(-50px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .intro__text_author {
+    font-size: 24px;
+    line-height: 1.4;
+    width: 100%;
+    transform: translateY(-50px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text_author {
+    font-size: 24px;
+    line-height: 1.4;
+    margin: 0;
+    transform: translateY(0px);
+  }
+}
