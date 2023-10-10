@@ -21,6 +21,17 @@
 @import url("../blocks/photo-grid/__image/photo-grid__image.css");
 /* ---------------------------------------------- */
 @import url("../blocks/places/places.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__title/place__title.css");
+@import url("../blocks/place/__artist-container/place__artist-container.css");
+@import url("../blocks/place/__url-heading/place__url-heading.css");
+@import url("../blocks/place/__artist/place__artist.css");
+@import url("../blocks/place/__image-container/place__image-container.css");
+@import url("../blocks/place/__image/place__image.css");
+@import url("../blocks/place/__paragraph-container/place__paragraph-container.css");
+@import url("../blocks/place/__paragraph/place__paragraph.css");
+@import url("../blocks/place/__frame/place__frame.css");
+@import url("../blocks/place/__paragraph/_frame/place__paragraph_frame\ .css");
 /* ---------------------------------------------- */
 @import url("../blocks/cover/__overlay/cover__overlay.css");
 @import url("../blocks/cover/__title/cover__title.css");
