@@ -20,13 +20,13 @@
 /* ---------------------------------------------- */
 @import url("../blocks/places.css");
 /* ---------------------------------------------- */
-@import url("../blocks/cover/__overlay/__overlay.css");
-@import url("../blocks/cover/__title/__title.css");
-@import url("../blocks/cover/__subtitle-container/__subtitle-container.css");
-@import url("../blocks/cover/__subtitle/__subtitle.css");
-@import url("../blocks/cover/__frame/__frame.css");
-@import url("../blocks/cover/__paragraph/__paragraph.css");
-@import url("../blocks/cover/__background/__background.css");
+@import url("../blocks/cover/__overlay/cover__overlay.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle-container/cover__subtitle-container.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
+@import url("../blocks/cover/__frame/cover__frame.css");
+@import url("../blocks/cover/__paragraph/cover__paragraph.css");
+@import url("../blocks/cover/__background/cover__background.css");
 /* ---------------------------------------------- */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
