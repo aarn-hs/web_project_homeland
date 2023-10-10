@@ -1,0 +1,13 @@
+.cover__subtitle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  margin: 32px auto;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle-container {
+    margin: 16px auto;
+  }
+}

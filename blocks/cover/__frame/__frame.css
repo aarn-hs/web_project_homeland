@@ -1,0 +1,21 @@
+.cover__frame {
+  display: inline-flex;
+  padding: 13px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #0278fe;
+  width: fit-content;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.cover__frame:hover {
+  background: #0063d2;
+}
+
+.cover__frame:hover + .cover__background {
+  opacity: 0.3;
+  background: #2a2c2f;
+}
